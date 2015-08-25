@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Test file: Project 1, Part 1, Case 2 -->
+<!-- A model-based predator chooses the target it will intercept first -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+       width="500" height="500" time="100" debug="true">
+  <runner x="100" y="370" heading="0" />
+  <runner x="400" y="370" heading="0" />
+  <model-predator x="300" y="230" heading="0" debug="true" />
+</world>

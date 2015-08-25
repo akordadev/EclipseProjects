@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- Test file: Project 1, Part 3, Case 6 -->
+<!-- A more interesting flocking case -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+   width="500" height="500" time="200" debug="true">
+   <defaults>
+     <flocker debug="true" 
+              light="false" clear="true" evade="true" align="true" center="true" 
+              />
+   </defaults>
+   
+    <flocker x="100" y="100" heading="0" />
+   <flocker x="150" y="130" heading="0" />
+   <flocker x="100" y="160" heading="0" />
+   
+   <light x="530" y="150" />
+   
+    <rock x="500" y="130" />
+    <rock x="510" y="130" />
+     <rock x="520" y="130" />
+      <rock x="530" y="130" />
+       <rock x="540" y="130" />
+        <rock x="550" y="130" />
+         <rock x="560" y="130" />
+          <rock x="570" y="130" />
+          
+    <rock x="500" y="200" />
+    <rock x="510" y="200" />
+     <rock x="520" y="200" />
+      <rock x="530" y="200" />
+       <rock x="540" y="200" />
+        <rock x="550" y="200" />
+         <rock x="560" y="200" />
+          <rock x="570" y="200" />
+          
+          
+          
+           <light x="330" y="150" />
+   
+    <rock x="300" y="130" />
+    <rock x="310" y="130" />
+     <rock x="320" y="130" />
+      <rock x="330" y="130" />
+       <rock x="340" y="130" />
+        <rock x="350" y="130" />
+         <rock x="360" y="130" />
+          <rock x="370" y="130" />
+          
+    <rock x="300" y="200" />
+    <rock x="310" y="200" />
+     <rock x="320" y="200" />
+      <rock x="330" y="200" />
+       <rock x="340" y="200" />
+        <rock x="350" y="200" />
+         <rock x="360" y="200" />
+          <rock x="370" y="200" />
+          
+          
+          
+   
+   
+  
+          
+  
+</world>
+

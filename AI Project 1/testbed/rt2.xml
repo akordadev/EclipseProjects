@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Test file: Project 1, Part 1, Case1 -->
+<!-- A reactive predator chases the closest target -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+       width="500" height="500" time="100" debug="true">
+  <runner x="100" y="370" heading="0" />
+  <runner x="400" y="370" heading="0" />
+  <reactive-predator x="300" y="230" heading="0" debug="true" />
+</world>

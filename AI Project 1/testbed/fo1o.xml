@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking" width="500" height="500" runnable="false" debug="true" >
+  <state step="0" >
+   <flocker id="1" 
+     size="15" forwardMax="4.0" backwardMax="0.0" accelMax="10.0" decelMax="10.0" maxTurn="6.000000000000001" strength="0" viewAngle="180.0" r="150" g="0" b="150" debug="false" with-extensions="false" 
+     x="100.0" y="250.0" heading="0.0" speed="0.0" 
+     clear="true" evade="false" align="false" center="false" follow="false" clearance="140.0" cone="59.99999999999999" separation="50.0" detection="250.0" ow="2.0" sw="2.0" aw="5.0" cw="10.0" lw="5.0" 
+    />
+   <rock id="2" 
+     size="10" forwardMax="0.0" backwardMax="0.0" accelMax="0.0" decelMax="0.0" maxTurn="0.0" strength="0" viewAngle="180.0" r="0" g="0" b="0" debug="false" with-extensions="false" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="1">
+   <update id="1" 
+    x="104.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="2">
+   <update id="1" 
+    x="108.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="3">
+   <update id="1" 
+    x="112.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="4">
+   <update id="1" 
+    x="116.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="5">
+   <update id="1" 
+    x="120.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="6">
+   <update id="1" 
+    x="124.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="7">
+   <update id="1" 
+    x="128.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="8">
+   <update id="1" 
+    x="132.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="9">
+   <update id="1" 
+    x="136.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="10">
+   <update id="1" 
+    x="140.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="11">
+   <update id="1" 
+    x="144.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="12">
+   <update id="1" 
+    x="148.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="13">
+   <update id="1" 
+    x="152.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="14">
+   <update id="1" 
+    x="156.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="15">
+   <update id="1" 
+    x="160.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="16">
+   <update id="1" 
+    x="164.0" y="250.0" heading="0.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="17">
+   <update id="1" 
+    x="167.9780875814731" y="250.41811385307062" heading="6.000000000000001" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="18">
+   <update id="1" 
+    x="171.8906779844083" y="251.24976061634166" heading="12.000000000000002" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="19">
+   <update id="1" 
+    x="175.69490404958893" y="252.48582859384146" heading="18.0" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="20">
+   <update id="1" 
+    x="179.34908588015932" y="254.11277516614467" heading="24.000000000000004" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="21">
+   <update id="1" 
+    x="182.8131874952971" y="256.1127751661447" heading="30.000000000000004" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="22">
+   <update id="1" 
+    x="186.0492554727969" y="258.4639161753146" heading="36.00000000000001" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="23">
+   <update id="1" 
+    x="189.02183477470646" y="261.14043860075003" heading="42.00000000000001" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="24">
+   <update id="1" 
+    x="191.69835720014188" y="264.11301790265964" heading="48.00000000000001" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="25">
+   <update id="1" 
+    x="194.04949820931176" y="267.3490858801594" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="26">
+   <update id="1" 
+    x="196.40063921848164" y="270.5851538576592" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="27">
+   <update id="1" 
+    x="198.75178022765152" y="273.82122183515895" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="28">
+   <update id="1" 
+    x="201.1029212368214" y="277.0572898126587" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="29">
+   <update id="1" 
+    x="203.45406224599128" y="280.2933577901585" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="30">
+   <update id="1" 
+    x="205.80520325516116" y="283.52942576765827" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="31">
+   <update id="1" 
+    x="208.15634426433104" y="286.76549374515804" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="32">
+   <update id="1" 
+    x="210.50748527350092" y="290.0015617226578" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="33">
+   <update id="1" 
+    x="212.8586262826708" y="293.2376297001576" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="34">
+   <update id="1" 
+    x="215.20976729184068" y="296.47369767765736" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="35">
+   <update id="1" 
+    x="217.56090830101056" y="299.7097656551571" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="36">
+   <update id="1" 
+    x="219.91204931018044" y="302.9458336326569" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="37">
+   <update id="1" 
+    x="222.26319031935031" y="306.1819016101567" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="38">
+   <update id="1" 
+    x="224.6143313285202" y="309.41796958765644" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="39">
+   <update id="1" 
+    x="226.96547233769007" y="312.6540375651562" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="40">
+   <update id="1" 
+    x="229.31661334685995" y="315.890105542656" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="41">
+   <update id="1" 
+    x="231.66775435602983" y="319.12617352015576" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="42">
+   <update id="1" 
+    x="234.0188953651997" y="322.36224149765553" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="43">
+   <update id="1" 
+    x="236.3700363743696" y="325.5983094751553" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="44">
+   <update id="1" 
+    x="238.72117738353947" y="328.8343774526551" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="45">
+   <update id="1" 
+    x="241.07231839270935" y="332.07044543015485" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="46">
+   <update id="1" 
+    x="243.42345940187923" y="335.3065134076546" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="47">
+   <update id="1" 
+    x="245.7746004110491" y="338.5425813851544" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="48">
+   <update id="1" 
+    x="248.125741420219" y="341.77864936265416" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="49">
+   <update id="1" 
+    x="250.47688242938887" y="345.01471734015394" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="50">
+   <update id="1" 
+    x="252.82802343855874" y="348.2507853176537" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="51">
+   <update id="1" 
+    x="255.17916444772862" y="351.4868532951535" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="52">
+   <update id="1" 
+    x="257.53030545689853" y="354.72292127265325" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="53">
+   <update id="1" 
+    x="259.88144646606844" y="357.958989250153" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="54">
+   <update id="1" 
+    x="262.23258747523835" y="361.1950572276528" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="55">
+   <update id="1" 
+    x="264.58372848440825" y="364.43112520515257" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="56">
+   <update id="1" 
+    x="266.93486949357816" y="367.66719318265234" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="57">
+   <update id="1" 
+    x="269.28601050274807" y="370.9032611601521" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="58">
+   <update id="1" 
+    x="271.637151511918" y="374.1393291376519" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="59">
+   <update id="1" 
+    x="273.9882925210879" y="377.37539711515166" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="60">
+   <update id="1" 
+    x="276.3394335302578" y="380.61146509265143" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="61">
+   <update id="1" 
+    x="278.6905745394277" y="383.8475330701512" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="62">
+   <update id="1" 
+    x="281.0417155485976" y="387.083601047651" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="63">
+   <update id="1" 
+    x="283.3928565577675" y="390.31966902515074" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+  <state step="64">
+   <update id="1" 
+    x="285.7439975669374" y="393.5557370026505" heading="54.000000000000014" speed="4.0" 
+    />
+   <update id="2" 
+    x="300.0" y="250.0" heading="0.0" speed="0.0" 
+    />
+  </state>
+  <wait time="50"/>
+</world>
+

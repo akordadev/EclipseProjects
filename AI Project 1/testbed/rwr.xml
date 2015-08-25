@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Test file: Project 1, Part 1, Case1 -->
+<!-- A reactive predator moves to where its target currently is -->
+<!-- not to where the target is going -->
+
+<world xmlns="http://perceptualscience.rutgers.edu/flocking"
+       width="500" height="500" time="100" debug="true">
+  <runner x="300" y="130" heading="90" speed="5.0" />
+  <runner x="300" y="130" heading="-90" speed="5.0" />
+  
+  <reactive-predator x="130" y="100" heading="270" speed="6.0" debug="true" />
+</world>
