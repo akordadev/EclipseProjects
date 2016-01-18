@@ -471,8 +471,6 @@ public class Flocker extends Follower {
     		if((ps.get(i).getObjectCategory() == Percept.ObjectCategory.PREDATOR 
     				||
     				ps.get(i).getObjectCategory() == Percept.ObjectCategory.OBSTACLE) && flocking.avoidsObstacles ){
-    			
-    			
     			//Now make sure it is within range
     			if(ps.get(i).getDistance() <= flocking.clearance
     					&&
@@ -481,22 +479,17 @@ public class Flocker extends Follower {
     				//ADD FORCES
     				double weight = (flocking.clearance * flocking.obstacleWeight/ps.get(i).getDistance());
 	    			double angle = 0;
+                    //Turn left or right to avoid the obsticle
 	    			if (Math.abs(ps.get(i).getAngle() - flocking.cone) >=  flocking.cone) {
-	    				System.out.println("here");
 	    				 if(Math.abs(ps.get(i).getAngle() - flocking.cone) <= 2*flocking.cone)angle = flocking.cone;
 	    			}
 	    			else {
-	    				System.out.println("ugh");
 	    				angle = flocking.cone * -1;
 	    			}
-	    			
-	    			
 	    			WeightedForce addedforce = new WeightedForce(weight,angle);
 	    			
 	    			force.addIn(addedforce);
-    				
     			}
-	    			
     		}
     		
     		//Now check to see if other boids are in range
@@ -508,9 +501,6 @@ public class Flocker extends Follower {
     				
     				double weight = (flocking.separationDistance * flocking.separationWeight/ps.get(i).getDistance());
 	    			double angle = ps.get(i).getAngle() *-1;
-	    			
-	    			
-	    			
 	    			WeightedForce addedforce = new WeightedForce(weight,angle);
 	    			
 	    			force.addIn(addedforce);
@@ -525,21 +515,11 @@ public class Flocker extends Follower {
     				
     				sumangle += ps.get(i).getAngle();
     				sumdist += ps.get(i).getDistance();
-    				
-    				
-    				
-    				
-    				
+
     				//sum up all forces then reweight by 1/n at the end of the loop
     				alignavg.addIn(new WeightedForce(flocking.alignmentWeight, ps.get(i).getOrientation()));
-    				
     			}
-    			
-    			
-    			
-	    			
     		}
-    		
     		//check if it is a light we need to be chasing
     		else if (ps.get(i).getObjectCategory() == Percept.ObjectCategory.LIGHT) {
     			
@@ -547,13 +527,7 @@ public class Flocker extends Follower {
     			if(clossestLight == null || (ps.get(i).getDistance() < clossestLight.getDistance())) {
     				clossestLight = ps.get(i);
         		}
-        		
-    			
     		}
-    		
-    		
-    		
-    		
     		i++;
     	}
     	// add average force for aligning birds, and then center
@@ -573,9 +547,7 @@ public class Flocker extends Follower {
 	        	force.addIn(new WeightedForce(flocking.centeringWeight, centroid.getAngle()));
     		}
     	}
-    	
-    	
-    	
+
     	//add force for nearest light
     	if(clossestLight != null && flocking.followsLight) {
 	    	WeightedForce lightforce = new WeightedForce(flocking.followWeight,clossestLight.getAngle());

@@ -25,7 +25,7 @@ public class ModelPredator extends Follower {
     static final String XML_NAME = "model-predator";
 
     /** Can go forward up to 6 pixels per step */
-    static final double PREDATOR_MAX_SPEED = 6;
+    static final double PREDATOR_MAX_SPEED = 6.0;
 
     /** Record that allows XML files to set ModelPredator defaults */
     static FixedAgentAttributes defaultFixedAgentAttributes =
@@ -35,7 +35,7 @@ public class ModelPredator extends Follower {
                 FOLLOWER_MIN_SPEED,
                 FOLLOWER_MAX_ACCEL,
                 FOLLOWER_MAX_DECEL,
-                HALF_CIRCLE,
+                FOLLOWER_MAX_TURN,
                 0, HALF_CIRCLE, Color.RED,
                 false, false);
 
@@ -127,8 +127,7 @@ public class ModelPredator extends Follower {
     	double intdist = 0;
     	Percept intercept = null;
     	while (i < ps.size()) {
-    		
-    		//System.out.println("stats: " + ps.get(i).getDistance());
+
     		beta = ps.get(i).getOrientation() - ps.get(i).getAngle();
     		alpha = Math.asin((ps.get(i).getSpeed()*Math.sin(beta)) / PREDATOR_MAX_SPEED );
     		
@@ -143,10 +142,7 @@ public class ModelPredator extends Follower {
     	    			target.getAngle() + alpha,0,target.getSpeed() );
     		}
     		i++;
-    		
     	}
-    	
-    	
     	return intercept;
     	//in short, our predator will "reactivly" chase the closest interception point
     }

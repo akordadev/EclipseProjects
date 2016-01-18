@@ -3,7 +3,7 @@
 <!-- A more interesting flocking case -->
 
 <world xmlns="http://perceptualscience.rutgers.edu/flocking"
-   width="500" height="500" time="200" debug="true">
+   width="500" height="500" time="30" debug="true">
    <defaults>
      <flocker debug="true" 
               light="false" clear="true" evade="true" align="true" center="true" 

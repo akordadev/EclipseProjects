@@ -75,7 +75,7 @@ public class World extends Canvas {
     static final String WAIT_INTERVAL = "time";
 
     /** Delay initiated by waiting when nothing specified, gives 50fps */
-    static final int DEFAULT_WAIT = 50;
+    static final int DEFAULT_WAIT = 5;
 
     /** Element tag for state giving snapshot of world history */
     static final String STATE_NAME = "state";

@@ -127,7 +127,6 @@ public class ReactivePredator extends Follower {
     	int i = 0;
     	Percept target = null; // this is the best target to go after
     	while (i < ps.size()) {
-    		//System.out.println("stats: " + ps.get(i).getAngle() + ", " + ps.get(i).getOrientation());
     		if((target == null || (ps.get(i).getDistance() < target.getDistance()) ) && ps.get(i).getObjectCategory() == Percept.ObjectCategory.BOID) {
     			target = ps.get(i);
     		}
